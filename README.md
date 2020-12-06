@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zwallet - e-Wallet
 
-## Available Scripts
+Store your money in your e-wallet
 
-In the project directory, you can run:
+## Table of contents
 
-### `yarn start`
+- [Introduction](##Introduction)
+- [Technologies](##Technologies)
+- [App_UI](##App_UI)
+- [Setup](##Setup)
+- [Source](##Source)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Introduction
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Zwallet is a web base aplication to let users store money everywhere and enytime. zwallet let users transfer money to each other and top up their money. this app vision is to support cashless transaction.
 
-### `yarn test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Visual_Studio_Code](https://code.visualstudio.com/)
+- [MySQL](https://www.mysql.com/)
+- [React Js](https://reactjs.org/)
+- [ExpressJs](https://expressjs.com/)
 
-### `yarn build`
+## App_UI
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing Page
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<img src="https://i.ibb.co/FBJwcbc/Capture5.png" width="250">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login
 
-### `yarn eject`
+<img src="https://i.ibb.co/s2L5ywr/Capture4.png" width="250">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Dashboard
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://i.ibb.co/Npm8WsZ/Capture.png" width="250">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Search Transfer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://i.ibb.co/TmwrvgJ/Capture3.png" width="250">
 
-## Learn More
+### Topup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://i.ibb.co/XpXndhc/Capture1.png" width="250">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Profile
 
-### Code Splitting
+<img src="https://i.ibb.co/7RkBRzw/Capture2.png" width="250">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Setup
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+`yarn`
+`yarn start`
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
