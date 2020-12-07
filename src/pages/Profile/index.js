@@ -61,7 +61,7 @@ class Profile extends Component {
       'fullName', this.state.fullName
     )
     //  console.log('hasil dari form data: ',formData.get('images'))
-      if (formData.get('images') == 'null') {
+      if (formData.get('images') === 'null') {
 
         const token = localStorage.getItem("jwt");
         const headers = { headers: {'Authorization': `${token}`}}  
