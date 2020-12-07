@@ -36,14 +36,12 @@ function History(){
         const stateGlobal = useSelector(state => state)
 
         const sortOutcome = () => {
-            setShowOutcome(true)
             setSort(true)
         }
 
 
 
         const sortIncome = () => {
-            setShowIncome(true)
             setSort(true)
         }
         
@@ -82,9 +80,6 @@ function History(){
         .then(res =>{
         
             setHistoryTransferIncomeWeek(res.data.data.inWeek)
-            setHistoryTransferOutcomeWeek(res.data.data.outWeek)
-            setHistoryTransferOutcomeMonth(res.data.data.outMonth)
-            setHistoryTransferIncomeMonth(res.data.data.inMonth)
             setHistoryTransfer(res.data.data.data)
 
         
