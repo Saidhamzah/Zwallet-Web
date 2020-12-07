@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './profile.css';
 import axios from 'axios';
-import qs from 'qs';
 
 
 class Profile extends Component {

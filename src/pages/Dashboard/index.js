@@ -202,8 +202,8 @@ class Dashboard extends Component {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className={`col-sm-3 col-md-5 pt-3 ${this.props.userData.id == history.sendBy ? 'money-plus' : 'money-minus'} `}>
-                                                     <p>{this.props.userData.id == history.sendBy ? '+' : '-'}Rp{history.amountTransfer}</p>
+                                                    <div className={`col-sm-3 col-md-5 pt-3 ${this.props.userData.id === history.sendBy ? 'money-plus' : 'money-minus'} `}>
+                                                     <p>{this.props.userData.id === history.sendBy ? '+' : '-'}Rp{history.amountTransfer}</p>
                                                     </div>
                                                 </div>
                                                 )

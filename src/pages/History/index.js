@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import {useSelector} from 'react-redux';
 import { icArrowUp , icGridActive, icLogOut,icPlus,icUser,icArrowExpense,icArrowIncome} from '../../assets';
-import { Navbar,Footer, CardPerson, NavigationMobile} from '../../component/molecules';
+import { Navbar,Footer, NavigationMobile} from '../../component/molecules';
 import './history.css'
 import {Link} from 'react-router-dom';
 import { format } from 'date-fns'
@@ -17,13 +17,13 @@ function History(){
 
         const [historyTransfer, setHistoryTransfer] = useState([])
         const [historyTransferIncomeWeek,setHistoryTransferIncomeWeek] = useState([])
-        const [historyTransferOutcomeWeek,setHistoryTransferOutcomeWeek] = useState([])
-        const [historyTransferIncomeMonth,setHistoryTransferIncomeMonth] = useState([])
-        const [historyTransferOutcomeMonth,setHistoryTransferOutcomeMonth] = useState([])
+        // const [historyTransferOutcomeWeek,setHistoryTransferOutcomeWeek] = useState([])
+        // const [historyTransferIncomeMonth,setHistoryTransferIncomeMonth] = useState([])
+        // const [historyTransferOutcomeMonth,setHistoryTransferOutcomeMonth] = useState([])
         const [sort, setSort] = useState(false)
-        const [showOutcome, setShowOutcome] = useState(false)
+        // const [showOutcome, setShowOutcome] = useState(false)
 
-        const [showIncome, setShowIncome] = useState(false)
+        // const [showIncome, setShowIncome] = useState(false)
 
         
         const [modalShow , setModalShow] = useState(false)
@@ -92,7 +92,7 @@ function History(){
         }).catch(err => {
           console.log('data transfer axios error: ', err.message)
         });
-        }, [])
+        })
 
     
 
@@ -161,7 +161,7 @@ function History(){
                                                             
                                                                     </div>
                                                                     
-                                                                    {stateGlobal.id == history.sendBy ? 
+                                                                    {stateGlobal.id === history.sendBy ? 
                                                                     ( 
                                                                         <div class="value-history-add  ml-auto mr-3 mt-3">
                                                                         +Rp {history.amountTransfer}
@@ -197,7 +197,7 @@ function History(){
                                                             
                                                                     </div>
                                                                     
-                                                                    {stateGlobal.id == history.sendBy ? 
+                                                                    {stateGlobal.id === history.sendBy ? 
                                                                     ( 
                                                                         <div class="value-history-add  ml-auto mr-3 mt-3">
                                                                         +Rp {history.amountTransfer}
@@ -246,7 +246,7 @@ function History(){
                                                             
                                                                     </div>
                                                                     
-                                                                    {stateGlobal.id == history.sendBy ? 
+                                                                    {stateGlobal.id === history.sendBy ? 
                                                                     ( 
                                                                         <div class="value-history-add  ml-auto mr-3 mt-3">
                                                                         +Rp {history.amountTransfer}
@@ -282,7 +282,7 @@ function History(){
                                                             
                                                                     </div>
                                                                     
-                                                                    {stateGlobal.id == history.sendBy ? 
+                                                                    {stateGlobal.id === history.sendBy ? 
                                                                     ( 
                                                                         <div class="value-history-add  ml-auto mr-3 mt-3">
                                                                         +Rp {history.amountTransfer}

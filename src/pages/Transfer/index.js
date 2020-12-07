@@ -244,7 +244,7 @@ class Transfer extends Component {
 
                                         {  
                                             
-                                            this.state.profiles.length == 0 && 
+                                            this.state.profiles.length === 0 && 
                                             <div style={{textAlign:'center',width:'100%'}}>
                                                 <span className="py-2 px-3 mt-5" style={{backgroundColor:'#fff',borderRadius:10,color:'#333',cursor:'pointer'}}> <h1>Data Not Found</h1> </span>
                                             </div>

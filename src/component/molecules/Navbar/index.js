@@ -36,7 +36,7 @@ import NavigationMobile from '../NavigationMobile';
 
             console.log('dari histor lll',history)
             
-    },[])
+    })
     
     const dataApi = (token) => {
         
